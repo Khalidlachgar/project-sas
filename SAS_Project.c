@@ -42,7 +42,7 @@ void AddReservation()
 
 void AfficherTout()
 {
-  printf("=============================================== La liste des reservation =============================================== \n");
+  printf("========================== La liste des reservation =============================================== \n");
   for (int i = 0; i < count; i++)
   {
     printf(" res_%d : ", i + 1);
